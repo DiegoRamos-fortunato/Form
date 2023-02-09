@@ -1,0 +1,97 @@
+@media (min-width : 768px) and (max-width : 1023px) {
+    .principal__titulo{
+        font-size: 40px;
+    }
+    .principal__texto{
+        font-size: 20px;
+    }
+
+    .preco__texto{
+        font-size: 20px;
+    }
+
+    .form__input{
+        padding: 30px;
+    }
+
+    .form__input::placeholder{
+        font-size: 18px;
+    }
+
+    .input__button{
+        font-size:23px ;
+    }
+
+    .form__text{
+        font-size: 15px;
+    }
+
+    .mensagem__erro{
+        font-size: 17px;
+    }
+}
+
+@media (min-width : 1024px) {
+    .conteudo__main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container__principal{
+        width: 60%;
+    }
+
+    .container__conteudo{
+        width: 90%;
+        margin-top: 110px;
+        
+    }
+
+    .principal__titulo{
+        font-size: 45px;
+        line-height: 120%;
+        
+    }
+
+    .principal__texto{
+        font-size: 17px;
+    }
+
+    .preco__texto{
+        font-size: 18px
+    }
+
+    .form__input{
+        font-size: 24px;
+    }
+
+    .form__input::placeholder{
+        font-size: 18px;
+    }
+
+    .input__button{
+        font-size: 20px;
+        
+    }
+
+    .form__text{
+        font-size: 11px;
+    }
+
+    .conteudo__preco{
+        width: 55%;
+        padding: 18px;
+        display: flex;
+       justify-content: center;
+       
+    }
+
+    .conteudo__form{
+        width: 60%;
+    }
+
+    .mensagem__erro{
+        font-size: 17px;
+    }
+}

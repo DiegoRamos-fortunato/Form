@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+</head>
+<body class="body">
+    <main class="conteudo__main">
+        <section class="container__principal">
+            <h1 class="principal__titulo">Learn to code by watching others </h1>
+            <p class="principal__texto">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </section>
+        <section class="container__conteudo">
+            <div class="conteudo__preco">
+                <p class="preco__texto"><strong class="texto__strong">Try it free 7 days</strong> then</p>
+                <p class="preco__texto" >$20/mo. thereafter</p>
+            </div>
+            <form class="conteudo__form" id="form">
+
+                <fieldset>
+                    <input name="nome" id="nome" type="text" minlength="3" required placeholder="First Name " class="form__input">
+                    <span class="mensagem__erro"></span>
+                </fieldset>
+
+                <fieldset>
+                    <input  name="sobrenome" id="sobrenome" type="text" minlength="3" required placeholder="Last Name" class="form__input">
+                    <span class="mensagem__erro"></span>
+                </fieldset>
+
+                <fieldset>
+                    <input name="email" id="email" type="email" minlength="4" required placeholder="Email Address" class="form__input">
+                    <span class="mensagem__erro"></span>
+              </fieldset>
+
+
+                <fieldset>
+                    <input name="senha" id="senha" type="password" minlength="8" required placeholder="Password " class="form__input">
+                    <span class="mensagem__erro"></span>
+                </fieldset>
+
+
+                <input type="submit" value="Claim your free trial" class="input__button">
+                <p class="form__text">By clicking the button, you are agreeing to </p>
+                <p class="form__text">our <strong class="form__text__strong">Terms and Services</strong></p>
+            </form>
+        </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
